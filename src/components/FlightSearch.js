@@ -34,7 +34,7 @@ function FlightSearch() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/live/flights?keyword=${flightNumber.trim()}`
+        `${process.env.REACT_APP_API_URL}/live/flights?keyword=${flightNumber.trim()}`
       );
 
       if (!response.ok) throw new Error("API fail");
