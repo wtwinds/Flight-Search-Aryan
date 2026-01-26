@@ -288,3 +288,14 @@
   font-size: 14px;
   opacity: 0.8;
 }
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
