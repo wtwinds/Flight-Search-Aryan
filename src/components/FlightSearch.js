@@ -113,7 +113,7 @@ function FlightSearch() {
 
   return (
     <div className="flight-card">
-      <h2 className="title">Flight Search</h2>
+      <h2 className="title">Flight Analytic</h2>
 
       {step === "home" && (
         <div className="home-buttons">
